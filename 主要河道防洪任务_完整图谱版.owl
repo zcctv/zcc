@@ -1,0 +1,943 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.shandong.com/ontologies#"
+     xml:base="http://www.shandong.com/ontologies"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:DP="http://www.shandong.com/DP#">
+    <owl:Ontology rdf:about="http://www.shandong.com/ontologies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.shandong.com/DP#历史最大洪水发生日期_年月日 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#历史最大洪水发生日期_年月日"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#历史最大洪水水位_米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#历史最大洪水水位_米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#历史最大洪水流量_秒立米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#历史最大洪水流量_秒立米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#堤顶高程右_米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#堤顶高程右_米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#堤顶高程左_米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#堤顶高程左_米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#备注 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#备注"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#控制站所在地_省县 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#控制站所在地_省县"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#河道长度_公里 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#河道长度_公里"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#流域面积_平方公里 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#流域面积_平方公里"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#警戒水位_米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#警戒水位_米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#防洪保证值水位_米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#防洪保证值水位_米"/>
+    
+
+
+    <!-- http://www.shandong.com/DP#防洪保证值流量_秒立米 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.shandong.com/DP#防洪保证值流量_秒立米"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.shandong.com/ontologies#控制站 -->
+
+
+    <owl:Class rdf:about="http://www.shandong.com/ontologies#控制站"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.shandong.com/individuals#上桥闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#上桥闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.5</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.6</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.39</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2740</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.7</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.65</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽怀远</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5977</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.95</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2400</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#东孙营闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#东孙营闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.4</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.5</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南鹿邑</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">164</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4110</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.02</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.58</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#临焕集 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#临焕集">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965.7.5</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.34</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.65</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.65</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56黄海基面。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽濉溪</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2470</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.4</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.9</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">790</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#九湾 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#九湾">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.8</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.16</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.31</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.15</DP:堤顶高程右_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.17</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.15</DP:堤顶高程左_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.17</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海基面。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徼固镇</DP:控制站所在地_省县>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽固镇</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4850</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.77</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.15</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3700</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#何巷闸下 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#何巷闸下">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.14</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.49</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1670</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25.87</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25.87</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽怀远</DP:控制站所在地_省县>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.87</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.37</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#入淮河口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#入淮河口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽怀远</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">134.2</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5977</DP:流域面积_平方公里>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#入颍河口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#入颍河口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽阜阳</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">231.5</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5260</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32.78</DP:防洪保证值水位_米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#南坪闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#南坪闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960.9.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965.5.31</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.28</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">837</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56黄海基面。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽濉溪</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">187</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3472</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.1</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.6</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">924</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#双沟 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#双沟">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1954.8.16</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.05</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3160</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.25</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.25</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">废黄河口基面；防洪保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">江苏泗洪</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12024</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.25</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4710</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#古桥 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#古桥">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.2</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南柘城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3980</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.93</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47.84</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#吴庄 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#吴庄">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南太康</DP:控制站所在地_省县>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.5</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-496</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#固镇 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#固镇">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1954.7.21</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965.7.5</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.42</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1340</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.17</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.17</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海基面。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽固镇</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">237</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4670</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.02</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1540</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#夏楼 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#夏楼">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58.4</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58.4</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南睢县</DP:控制站所在地_省县>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.72</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54.72</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-733</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#大寺闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#大寺闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1957.7.22</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960.7.29</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.67</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2140</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.03</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.03</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽亳州</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10530</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.5</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.53</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2200</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#大王庙 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#大王庙">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971.6.30</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1977.7.12</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.06</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.79</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.29</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南杞县</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1265</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58.85</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59.4</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-554</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#太康 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#太康">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971.6.30</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51.32</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.7</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.5</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南太康</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">108</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2126</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51.5</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-749</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#峰山 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#峰山">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.9</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.9</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">废黄河口基面；防洪保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">江苏泗洪</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">105</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12024</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.9</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4710</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#惠济河口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#惠济河口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.47</DP:堤顶高程右_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.65</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.47</DP:堤顶高程左_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.65</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海高程；保证指标为设计值。</DP:备注>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">保证指标为设计值。由85黄海设计值加与废黄河口0.18米差值确定。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽亳州</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">174</DP:河道长度_公里>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4315</DP:流域面积_平方公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8655</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39.97</DP:防洪保证值水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.15</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1900</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#插花闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#插花闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.95</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.4</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.38</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽颍东</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.7</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3094</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#新开沱河闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#新开沱河闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.03</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.03</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海基面：保证流量为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽五河</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12024</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.47</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.76</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2160</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#李滩店 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#李滩店">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1957.7.22</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.44</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53.3</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53.3</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南柘城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2417</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47.85</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.85</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-784</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#杨桥闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#杨桥闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975.8.17</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34.75</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1440</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.02</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.02</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">防洪保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽临泉</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">177</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4276</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.5</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.52</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1576</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#板桥闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#板桥闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.2</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61.6</DP:堤顶高程左_米>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.34</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57.34</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-608</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#沈丘（李坟闸下） -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#沈丘（李坟闸下）">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975.8.16</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984.7.26</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.73</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">830</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">报汛水位尚需减0.147米为56黄海水位。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南沈丘</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3094</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.7</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.36</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1780</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#涡河口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#涡河口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25.5</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25.5</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽怀远</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">396</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15900</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.7</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.5</DP:防洪保证值水位_米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#涡阳闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#涡阳闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963.8.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.45</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2480</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32.53</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32.53</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">由85黄海设计值加与废黄河口0.16米差值确定。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽涡阳</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">262</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14300</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31.03</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2400</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#溧河洼 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#溧河洼">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">废黄河口基面；防洪保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">江苏泗洪</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12024</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4710</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#玄武 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#玄武">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1957.8</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.76</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47.97</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47.2</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004年由玄武闸迁回。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南鹿邑</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4020</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44.47</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.7</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#玄武闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#玄武闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965.7.18</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1977.7.11</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.46</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">473</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48.24</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48.24</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975年由玄武迁入。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南鹿邑</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">138</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4014</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.74</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#砖桥 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#砖桥">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1957.7.22</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963.8.5</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.3</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">934</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.19</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44.26</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南柘城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">143</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3410</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.16</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42.76</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#砖桥闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#砖桥闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1957.7.22</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.9.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.93</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">934</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.2</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.1</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南柘城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">143</DP:河道长度_公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.16</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.52</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#茨河铺 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#茨河铺">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.9</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽颍东</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4</DP:河道长度_公里>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#蒙城闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#蒙城闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963.8.10</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.1</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2080</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">由85黄海设计值加与废黄河口0.18米差值确定。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽蒙城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15475</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.35</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.4</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2400</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#西坝口闸上 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#西坝口闸上">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海基面：保证流量为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽五河</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8173</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.67</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.9</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2550</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#西坝口闸下 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#西坝口闸下">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.6</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.02</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2070</DP:历史最大洪水流量_秒立米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海基面：保证流量为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽五河</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8173</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.47</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.76</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2550</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#豫皖界 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#豫皖界">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.9</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.9</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85黄海高程；保证指标为设计值。</DP:备注>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">167</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4125</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#赵楼沟口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#赵楼沟口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.73</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.73</DP:堤顶高程左_米>
+        <DP:备注 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">防洪保证指标为设计值。</DP:备注>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">豫皖省界</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3270</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.23</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1318</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#运粮河东支口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#运粮河东支口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南开封</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">183</DP:流域面积_平方公里>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#邸阁 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#邸阁">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000.7.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.68</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63.59</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63.59</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南通许</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.3</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">605</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.94</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.59</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#阚疃闸 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#阚疃闸">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003.7.5</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.08</DP:历史最大洪水水位_米>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.35</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安徽利辛</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.5</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5898</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</DP:警戒水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#陈留北关 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#陈留北关">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.1</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67.6</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南开封</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">431</DP:流域面积_平方公里>
+        <DP:警戒水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65.84</DP:警戒水位_米>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66.55</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#马家河口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#马家河口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:堤顶高程右_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.21</DP:堤顶高程右_米>
+        <DP:堤顶高程左_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.21</DP:堤顶高程左_米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南开封</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">329</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.71</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.shandong.com/individuals#黄口 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.shandong.com/individuals#黄口">
+        <rdf:type rdf:resource="http://www.shandong.com/ontologies#控制站"/>
+        <DP:历史最大洪水发生日期_年月日 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982.7</DP:历史最大洪水发生日期_年月日>
+        <DP:历史最大洪水水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31.23</DP:历史最大洪水水位_米>
+        <DP:历史最大洪水流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">814</DP:历史最大洪水流量_秒立米>
+        <DP:控制站所在地_省县 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">河南永城</DP:控制站所在地_省县>
+        <DP:河道长度_公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47.2</DP:河道长度_公里>
+        <DP:流域面积_平方公里 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1314</DP:流域面积_平方公里>
+        <DP:防洪保证值水位_米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.48</DP:防洪保证值水位_米>
+        <DP:防洪保证值流量_秒立米 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">666</DP:防洪保证值流量_秒立米>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.0.0.20160228-2008) https://github.com/owlcs/owlapi/ -->
+
+
